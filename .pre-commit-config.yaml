@@ -4,7 +4,7 @@ repos:
     hooks:
     - id: robocop
       name: robocop
-      entry: robocop -rules robocop.cfg
+      entry: robocop -rules custom_rules.py
       files: '.*\.(robot|resource)$'
       language: python
       description: "RobotFramework source code linter"
