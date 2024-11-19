@@ -1,5 +1,5 @@
 *** Test Cases ***
-Test aaa
+Test aaa _m
     [Tags] tc-01
     log to console    hello
     test aaddd
