@@ -1,0 +1,10 @@
+repos:
+  - repo: https://github.com/MarketSquare/robotframework-robocop
+    rev: 5.1.0
+    hooks:
+    - id: robocop
+      name: robocop
+      entry: robocop -rules custom_rules.py
+      files: '.*\.(robot|resource)$'
+      language: python
+      description: "RobotFramework source code linter"
