@@ -1,6 +1,6 @@
-*** Test Cases ***
-Test aaa
-    [Tags] tc-011
-    log to console    hello
-    test aaddd
-    add
+*** Settings ***
+Documentation    Suite documentation
+
+***Test Cases ***
+my first tc
+    log to console    Hellow
