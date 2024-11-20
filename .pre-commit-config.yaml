@@ -1,5 +1,6 @@
 repos:
-  - repo: local
+  - repo: https://github.com/MarketSquare/robotframework-robocop
+    rev: 5.1.0
     hooks:
       - id: robocop
         name: Robocop Linter
